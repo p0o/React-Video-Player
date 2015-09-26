@@ -1,0 +1,18 @@
+{
+  "name": "react-video-player",
+  "description": "React video player",
+  "version": "0.1",
+  "license": "GNU",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p0o/React-Video-Player.git"
+  },
+  "peerDependencies": {
+    "react": ">=0.13 || >0.14.0-alpha"
+  }
+  "browserify-shim": {
+    "react": "global:React",
+    "react/addons": "global:React"
+  },
+  "main": "./dist/jsx/react-video.js",
+}
